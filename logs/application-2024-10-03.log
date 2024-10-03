@@ -8,3 +8,5 @@
 2024-10-03 11:34:08 info: GET /public - 200 - 22.689 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
 2024-10-03 11:34:30 info: GET /api/public/user
 2024-10-03 11:34:30 info: GET /user - 200 - 19.643 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-10-03 11:41:11 info: GET /api/user/public
+2024-10-03 11:41:12 info: GET /public - 200 - 22.345 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
