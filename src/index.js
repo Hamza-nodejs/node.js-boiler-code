@@ -4,6 +4,7 @@ const express = require('express')
 const cors = require('cors')
 const startServer = require('./config/server.config')
 const { logger, logRequestDuration } = require('./utils/logger')
+const routes = require('./routes')
 const app = express()
 
 // middlewares
@@ -16,5 +17,7 @@ app.use((req, res, next) => {
   logger.info(`${req.method} ${req.url}`)
   next()
 })
+
+app.use("/api", routes)
 
 startServer(app)
