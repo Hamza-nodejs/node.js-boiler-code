@@ -1,0 +1,10 @@
+2024-10-03 11:32:26 info: GET /api/demo/protected
+2024-10-03 11:32:26 info: GET /protected - 200 - 20.793 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-10-03 11:32:27 info: GET /favicon.ico
+2024-10-03 11:32:27 info: GET /favicon.ico - 404 - 8.414 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-10-03 11:33:02 info: GET /api/demo/protected
+2024-10-03 11:33:02 info: GET /protected - 304 - 9.824 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-10-03 11:34:08 info: GET /api/public/public
+2024-10-03 11:34:08 info: GET /public - 200 - 22.689 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+2024-10-03 11:34:30 info: GET /api/public/user
+2024-10-03 11:34:30 info: GET /user - 200 - 19.643 ms - Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36

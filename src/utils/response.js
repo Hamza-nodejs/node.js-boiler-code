@@ -1,23 +1,23 @@
 class HTTPError extends Error {
-    code;
-    details;
-  
-    constructor(message = "Error", errorCode, details = []) {
-      super();
-      this.message = message;
-      this.code = errorCode;
-      this.details = details;
-    }
+  code;
+  details;
+
+  constructor(message = "Error", errorCode, details = []) {
+    super();
+    this.message = message;
+    this.code = errorCode;
+    this.details = details;
   }
-  
-  class HTTPResponse {
-    message;
-    data;
-  
-    constructor(message = "Success", data) {
-      this.message = message;
-      this.data = data;
-    }
+}
+
+class HTTPResponse {
+  message;
+  data;
+
+  constructor(message = "Success", data) {
+    this.message = message;
+    this.data = data;
   }
-  
-  export { HTTPError, HTTPResponse };
+}
+
+module.exports = { HTTPError, HTTPResponse };
